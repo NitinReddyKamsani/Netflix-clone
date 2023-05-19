@@ -1,0 +1,32 @@
+class A 
+{
+    public void show()
+    {
+        System.out.println("showing in A");
+    }
+}
+
+class B extends A 
+{
+    public void show1()
+    {
+        System.out.println("showin in class B");
+    }
+}
+
+public class anonymous 
+{
+    public static void main(String a[])
+    {
+        A obj = new A()
+        {
+           public  void show()
+            {
+                System.out.println("show in a modified");
+            }
+        };
+        obj.show();
+        
+        
+    }
+}
