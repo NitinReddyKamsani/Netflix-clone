@@ -16,7 +16,7 @@ class B extends A
 
 public class anonymous 
 {
-    public static void main(String a[])
+    public static void main(String args[])
     {
         A obj = new A()
         {
